@@ -1,0 +1,97 @@
+<!--CADASTRO-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="apple-touch-icon" sizes="57x57" href="../icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+    <link rel="manifest" href="../icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="cadastro.css">
+    <meta name="author" content="Lemuel Kauê Manske de Liz">
+    <meta name="keywords" content="mouse, história, informática">
+    <meta http-equiv="refresh" content="120">
+    <meta name="description"
+        content="Trabalho sobre Desenvolvimento Web, tema trabalhado é informática, subtema: história do mouse">
+
+    <title>TechCenter</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <div class="logo">Cadastro</div>
+    </header>
+
+    <nav class="tema">
+        <ul class="nav">
+            <li><a href="../index_mouse.html" target="_blank" style="text-decoration: none; color: #ffffff;">MOUSE</a>
+            </li>
+            <li><a href="../index_teclado.html" target="_blank"
+                    style="text-decoration: none; color: #ffffff;">TECLADO</a>
+            </li>
+            <li><a href="../formulario/formulario.html" target="_blank"
+                    style="text-decoration: none; color: #ffffff;">FORMULÁRIO</a></li>
+        </ul>
+    </nav>
+
+    <br><br><br><br><br><br><br><br>
+
+    <p class="aviso">*O cadastro é realizado para você receber futuras atualizações do blog</p>
+
+    <form action="../index_mouse.html">
+
+        <div class="formulario">
+            <fieldset>
+
+                <legend><strong>CADASTRO</strong></legend>
+
+                <br>
+
+                <label>Nome: </label>
+                <input type="text" name="name" autofocus required>
+
+                <br><br>
+
+                <label>Email: </label>
+                <input type="email" name="email" required>
+
+                <br><br>
+
+                <label>Senha: </label>
+                <input type="password" name="Senha" required>
+
+                <br><br>
+
+            </fieldset>
+
+            <br><br>
+
+            <div onsubmit="return true">
+                <input type="submit" value="Enviar"
+                    onclick="alert('Sucesso! Clique em ok, caso não seja redirecionado confira se completou todas as lacunas.')">
+            </div>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
