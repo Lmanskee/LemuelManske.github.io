@@ -1,2 +1,2 @@
-# LemuelManske.github.io
+# http://LemuelManske.github.io
 My personal web site
